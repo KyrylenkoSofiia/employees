@@ -1,0 +1,11 @@
+.close {
+    background: transparent;
+    border: none;
+    display: block;
+    margin-left: auto;
+  }
+  
+  .gender {
+    font-size: 25px;
+  }
+  

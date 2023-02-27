@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 10px;
+  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+  margin-top: 10px;
+}
+
+.item {
+  border: 1px solid black;
+  border-radius: 5px;
+  min-height: 100px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.item .name {
+  text-align: right;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.item p {
+  margin-bottom: 5px;
+}
+
+.item .phone,
+.item .email {
+  text-decoration: none;
+  color: darkblue;
+}
+
+.item ul {
+  display: flex;
+  margin: 5px 0 0 0;
+  justify-content: flex-end;
+}
+
+.item ul li {
+  margin: 0 5px;
+  font-size: 12px;
+  list-style-type: none;
+  border: 1px solid #9797f0;
+  padding: 0 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.item ul li:hover {
+  background-color: #9797f0;
+  color: white;
+  border: 1px solid darkblue;
+}
