@@ -1,7 +1,8 @@
-const candidatesArr = [
+export const candidatesArr = [
   {
     index: 0,
     guid: 'e325a387-e1f4-4c1a-8df8-f188b06e3a2a',
+    isEdit: false,
     isActive: true,
     balance: '$3,365.14',
     picture: 'http://placehold.it/32x32',
@@ -67,6 +68,7 @@ const candidatesArr = [
   {
     index: 1,
     guid: 'dabbcfd3-61e2-4083-98e1-0f50aa692dbe',
+    isEdit: false,
     isActive: true,
     balance: '$3,088.32',
     picture: 'http://placehold.it/32x32',
@@ -140,6 +142,7 @@ const candidatesArr = [
   {
     index: 2,
     guid: '13046a32-ca32-4957-aaba-bdd09693238f',
+    isEdit: false,
     isActive: true,
     balance: '$1,064.97',
     picture: 'http://placehold.it/32x32',
@@ -205,6 +208,7 @@ const candidatesArr = [
   {
     index: 3,
     guid: '307c1d41-6e14-4859-a35b-1094d2878ff4',
+    isEdit: false,
     isActive: true,
     balance: '$3,030.05',
     picture: 'http://placehold.it/32x32',
@@ -278,6 +282,7 @@ const candidatesArr = [
   {
     index: 4,
     guid: 'e50f7cda-8875-4ee2-9f29-996905bd2f67',
+    isEdit: false,
     isActive: true,
     balance: '$3,519.15',
     picture: 'http://placehold.it/32x32',
@@ -343,6 +348,7 @@ const candidatesArr = [
   {
     index: 5,
     guid: '0a594c83-102c-4232-bc69-b878bc3cf1c6',
+    isEdit: false,
     isActive: true,
     balance: '$2,415.93',
     picture: 'http://placehold.it/32x32',
@@ -416,6 +422,7 @@ const candidatesArr = [
   {
     index: 6,
     guid: '9f638ab3-b7f5-41a3-8ef7-88a0195be6db',
+    isEdit: false,
     isActive: true,
     balance: '$1,255.01',
     picture: 'http://placehold.it/32x32',
@@ -489,6 +496,7 @@ const candidatesArr = [
   {
     index: 7,
     guid: 'b64e1503-ecad-4440-946c-d5d9276f711d',
+    isEdit: false,
     isActive: false,
     balance: '$1,512.77',
     picture: 'http://placehold.it/32x32',
@@ -554,6 +562,7 @@ const candidatesArr = [
   {
     index: 8,
     guid: '28ff53e0-8f64-45df-b5fe-8446d9998b60',
+    isEdit: false,
     isActive: false,
     balance: '$3,367.96',
     picture: 'http://placehold.it/32x32',
@@ -627,6 +636,7 @@ const candidatesArr = [
   {
     index: 9,
     guid: 'ef2eb95b-8bef-4c15-8bfe-3e7ececbd031',
+    isEdit: false,
     isActive: true,
     balance: '$3,738.99',
     picture: 'http://placehold.it/32x32',
@@ -700,6 +710,7 @@ const candidatesArr = [
   {
     index: 10,
     guid: '19e7a211-4e34-4f40-915e-e6f9c4cb74a9',
+    isEdit: false,
     isActive: false,
     balance: '$2,914.39',
     picture: 'http://placehold.it/32x32',
@@ -765,6 +776,7 @@ const candidatesArr = [
   {
     index: 11,
     guid: '61170092-701e-4c3e-8dd9-fbb428ee2a1d',
+    isEdit: false,
     isActive: true,
     balance: '$3,428.29',
     picture: 'http://placehold.it/32x32',
@@ -830,6 +842,7 @@ const candidatesArr = [
   {
     index: 12,
     guid: 'ecc3c991-db6e-4c03-b035-c7993268fad5',
+    isEdit: false,
     isActive: false,
     balance: '$2,458.10',
     picture: 'http://placehold.it/32x32',
@@ -895,6 +908,7 @@ const candidatesArr = [
   {
     index: 13,
     guid: '6418266b-65f1-49a6-986f-73bd594d600c',
+    isEdit: false,
     isActive: true,
     balance: '$1,513.69',
     picture: 'http://placehold.it/32x32',
@@ -960,6 +974,7 @@ const candidatesArr = [
   {
     index: 14,
     guid: '1a55bb2b-7cfd-4cf9-a369-42e8691018e3',
+    isEdit: false,
     isActive: true,
     balance: '$3,920.14',
     picture: 'http://placehold.it/32x32',
@@ -1025,6 +1040,7 @@ const candidatesArr = [
   {
     index: 15,
     guid: '0900dc0b-4b43-4a9e-862e-5767c7e83f3a',
+    isEdit: false,
     isActive: true,
     balance: '$1,586.92',
     picture: 'http://placehold.it/32x32',
@@ -1098,6 +1114,7 @@ const candidatesArr = [
   {
     index: 16,
     guid: 'a3873cff-b3a5-4bc5-bfc5-46a6fdb8c4d3',
+    isEdit: false,
     isActive: false,
     balance: '$3,085.67',
     picture: 'http://placehold.it/32x32',
@@ -1163,6 +1180,7 @@ const candidatesArr = [
   {
     index: 17,
     guid: '8e6c991c-84c0-4eec-9124-a9e0006df586',
+    isEdit: false,
     isActive: true,
     balance: '$1,301.67',
     picture: 'http://placehold.it/32x32',
@@ -1228,6 +1246,7 @@ const candidatesArr = [
   {
     index: 18,
     guid: '52d021cf-829e-405d-b0c0-f110286dfd2a',
+    isEdit: false,
     isActive: true,
     balance: '$3,573.75',
     picture: 'http://placehold.it/32x32',
@@ -1293,6 +1312,7 @@ const candidatesArr = [
   {
     index: 19,
     guid: 'ec1c8b95-1846-43e1-9620-a95870fa9e6d',
+    isEdit: false,
     isActive: true,
     balance: '$2,927.29',
     picture: 'http://placehold.it/32x32',
@@ -1366,6 +1386,7 @@ const candidatesArr = [
   {
     index: 20,
     guid: '2f55dbc4-537d-4544-b771-5805edb21efe',
+    isEdit: false,
     isActive: false,
     balance: '$1,086.78',
     picture: 'http://placehold.it/32x32',
@@ -1431,6 +1452,7 @@ const candidatesArr = [
   {
     index: 21,
     guid: '52333bd6-d410-41b1-a511-e949bbc9fd53',
+    isEdit: false,
     isActive: false,
     balance: '$1,889.68',
     picture: 'http://placehold.it/32x32',
@@ -1496,6 +1518,7 @@ const candidatesArr = [
   {
     index: 22,
     guid: '67fd34c4-1d3a-4518-904e-958635b2b863',
+    isEdit: false,
     isActive: false,
     balance: '$2,445.82',
     picture: 'http://placehold.it/32x32',
@@ -1569,6 +1592,7 @@ const candidatesArr = [
   {
     index: 23,
     guid: '13fd9702-a2c3-4d2d-b8fa-7ca04b9cb2fe',
+    isEdit: false,
     isActive: true,
     balance: '$1,831.53',
     picture: 'http://placehold.it/32x32',
@@ -1634,6 +1658,7 @@ const candidatesArr = [
   {
     index: 24,
     guid: '3192d182-7e95-4a0d-98d9-2dfdd8b79c66',
+    isEdit: false,
     isActive: true,
     balance: '$3,971.18',
     picture: 'http://placehold.it/32x32',
@@ -1699,6 +1724,7 @@ const candidatesArr = [
   {
     index: 25,
     guid: '13505b80-06bd-4290-84e7-1cf06171b279',
+    isEdit: false,
     isActive: false,
     balance: '$1,962.97',
     picture: 'http://placehold.it/32x32',
@@ -1764,6 +1790,7 @@ const candidatesArr = [
   {
     index: 26,
     guid: '1040bb04-86c3-45bb-814f-a18ad3d86130',
+    isEdit: false,
     isActive: true,
     balance: '$1,845.50',
     picture: 'http://placehold.it/32x32',
@@ -1829,6 +1856,7 @@ const candidatesArr = [
   {
     index: 27,
     guid: 'ca3d4646-eef8-4c96-92fe-20f24ecb5f24',
+    isEdit: false,
     isActive: true,
     balance: '$1,940.88',
     picture: 'http://placehold.it/32x32',
@@ -1894,6 +1922,7 @@ const candidatesArr = [
   {
     index: 28,
     guid: '7f9f1b61-7033-43d7-80f5-92cb531a091f',
+    isEdit: false,
     isActive: false,
     balance: '$3,253.43',
     picture: 'http://placehold.it/32x32',
@@ -1959,6 +1988,7 @@ const candidatesArr = [
   {
     index: 29,
     guid: 'efca7679-0069-4700-8de8-f6d020da3006',
+    isEdit: false,
     isActive: true,
     balance: '$2,355.58',
     picture: 'http://placehold.it/32x32',
@@ -2024,6 +2054,7 @@ const candidatesArr = [
   {
     index: 30,
     guid: '668db1bd-9759-4790-ac53-12c295d59ddd',
+    isEdit: false,
     isActive: true,
     balance: '$1,341.63',
     picture: 'http://placehold.it/32x32',
@@ -2089,6 +2120,7 @@ const candidatesArr = [
   {
     index: 31,
     guid: '61e33c56-926e-4f18-8f38-6c56fee308ab',
+    isEdit: false,
     isActive: false,
     balance: '$1,202.90',
     picture: 'http://placehold.it/32x32',
@@ -2162,6 +2194,7 @@ const candidatesArr = [
   {
     index: 32,
     guid: 'd076e134-292c-4414-b0aa-8b0788d11c36',
+    isEdit: false,
     isActive: true,
     balance: '$2,897.89',
     picture: 'http://placehold.it/32x32',
@@ -2227,6 +2260,7 @@ const candidatesArr = [
   {
     index: 33,
     guid: 'a07d6794-799a-47fd-bba0-7b0a85341915',
+    isEdit: false,
     isActive: true,
     balance: '$2,461.84',
     picture: 'http://placehold.it/32x32',
@@ -2300,6 +2334,7 @@ const candidatesArr = [
   {
     index: 34,
     guid: 'ec3f6137-e5c1-491d-a5ea-025603a0a297',
+    isEdit: false,
     isActive: false,
     balance: '$2,029.09',
     picture: 'http://placehold.it/32x32',
@@ -2365,6 +2400,7 @@ const candidatesArr = [
   {
     index: 35,
     guid: '750f0033-e450-4d4d-bfdf-516bb62dd935',
+    isEdit: false,
     isActive: false,
     balance: '$2,743.53',
     picture: 'http://placehold.it/32x32',
@@ -2430,6 +2466,7 @@ const candidatesArr = [
   {
     index: 36,
     guid: 'ec09e339-758e-478e-8133-a27b16d51057',
+    isEdit: false,
     isActive: true,
     balance: '$1,444.74',
     picture: 'http://placehold.it/32x32',
@@ -2495,6 +2532,7 @@ const candidatesArr = [
   {
     index: 37,
     guid: 'a82a9b4a-0728-41a5-a30c-f914fc39647c',
+    isEdit: false,
     isActive: true,
     balance: '$1,777.98',
     picture: 'http://placehold.it/32x32',
@@ -2568,6 +2606,7 @@ const candidatesArr = [
   {
     index: 38,
     guid: 'e87d0f04-1909-4022-9e77-bafa3014020d',
+    isEdit: false,
     isActive: false,
     balance: '$3,829.66',
     picture: 'http://placehold.it/32x32',
@@ -2633,6 +2672,7 @@ const candidatesArr = [
   {
     index: 39,
     guid: 'e6966df3-0707-4352-ab22-481184790209',
+    isEdit: false,
     isActive: false,
     balance: '$1,726.81',
     picture: 'http://placehold.it/32x32',
@@ -2698,6 +2738,7 @@ const candidatesArr = [
   {
     index: 40,
     guid: '69ce7216-667c-405a-8150-b4fdfa4f0e6c',
+    isEdit: false,
     isActive: false,
     balance: '$3,167.68',
     picture: 'http://placehold.it/32x32',
@@ -2771,6 +2812,7 @@ const candidatesArr = [
   {
     index: 41,
     guid: '94f32702-6be7-4395-9091-54a1cac98d6e',
+    isEdit: false,
     isActive: false,
     balance: '$2,209.90',
     picture: 'http://placehold.it/32x32',
@@ -2836,6 +2878,7 @@ const candidatesArr = [
   {
     index: 42,
     guid: 'e8b5b3ca-3a9d-4c9e-b065-0c10eb4d5ea5',
+    isEdit: false,
     isActive: false,
     balance: '$2,223.61',
     picture: 'http://placehold.it/32x32',
@@ -2901,6 +2944,7 @@ const candidatesArr = [
   {
     index: 43,
     guid: '9499a5b9-94c5-4046-9133-c3412508a66c',
+    isEdit: false,
     isActive: true,
     balance: '$2,372.25',
     picture: 'http://placehold.it/32x32',
@@ -2966,6 +3010,7 @@ const candidatesArr = [
   {
     index: 44,
     guid: '4f83058e-5834-4b0e-bfc9-720e4f0255b6',
+    isEdit: false,
     isActive: false,
     balance: '$2,932.36',
     picture: 'http://placehold.it/32x32',
@@ -3031,6 +3076,7 @@ const candidatesArr = [
   {
     index: 45,
     guid: '50111b16-7e23-4342-bb5d-6f4322dbd0f3',
+    isEdit: false,
     isActive: false,
     balance: '$3,678.24',
     picture: 'http://placehold.it/32x32',
@@ -3104,6 +3150,7 @@ const candidatesArr = [
   {
     index: 46,
     guid: '1a6418e0-10e0-43c3-800a-a0664cfbf5c2',
+    isEdit: false,
     isActive: false,
     balance: '$2,746.79',
     picture: 'http://placehold.it/32x32',
@@ -3177,6 +3224,7 @@ const candidatesArr = [
   {
     index: 47,
     guid: '77f894a4-0ef8-40a3-a500-7c48aef6c0be',
+    isEdit: false,
     isActive: false,
     balance: '$1,622.59',
     picture: 'http://placehold.it/32x32',
@@ -3250,6 +3298,7 @@ const candidatesArr = [
   {
     index: 48,
     guid: '053da3d0-f449-4b17-a6d9-29ac97ba21da',
+    isEdit: false,
     isActive: false,
     balance: '$2,914.81',
     picture: 'http://placehold.it/32x32',
@@ -3323,6 +3372,7 @@ const candidatesArr = [
   {
     index: 49,
     guid: '8925b326-0155-4e0f-b909-41c45c4914cd',
+    isEdit: false,
     isActive: true,
     balance: '$2,213.69',
     picture: 'http://placehold.it/32x32',
@@ -3396,6 +3446,7 @@ const candidatesArr = [
   {
     index: 50,
     guid: 'd9ca3093-f109-4ca5-aabb-93658903ef9f',
+    isEdit: false,
     isActive: true,
     balance: '$2,472.90',
     picture: 'http://placehold.it/32x32',
@@ -3461,6 +3512,7 @@ const candidatesArr = [
   {
     index: 51,
     guid: 'a5d23e8d-e599-4333-ba53-0a89d9bc1d88',
+    isEdit: false,
     isActive: true,
     balance: '$2,337.64',
     picture: 'http://placehold.it/32x32',
@@ -3526,6 +3578,7 @@ const candidatesArr = [
   {
     index: 52,
     guid: '3d82e05b-7109-4b98-b5dc-03977cd65510',
+    isEdit: false,
     isActive: true,
     balance: '$3,389.81',
     picture: 'http://placehold.it/32x32',
@@ -3599,6 +3652,7 @@ const candidatesArr = [
   {
     index: 53,
     guid: '9125ef1f-5d0f-46d2-9a77-ab937c8e04d1',
+    isEdit: false,
     isActive: false,
     balance: '$2,789.28',
     picture: 'http://placehold.it/32x32',
@@ -3672,6 +3726,7 @@ const candidatesArr = [
   {
     index: 54,
     guid: '7fc2b780-7f99-4ac9-b68d-0ba5363a7c97',
+    isEdit: false,
     isActive: false,
     balance: '$1,032.22',
     picture: 'http://placehold.it/32x32',
@@ -3745,6 +3800,7 @@ const candidatesArr = [
   {
     index: 55,
     guid: '883e6e08-a3f6-48ed-8559-5d3faa20c4ad',
+    isEdit: false,
     isActive: true,
     balance: '$1,893.86',
     picture: 'http://placehold.it/32x32',
@@ -3810,6 +3866,7 @@ const candidatesArr = [
   {
     index: 56,
     guid: 'e03eb55f-e72e-498d-833f-918c106672a8',
+    isEdit: false,
     isActive: false,
     balance: '$3,394.79',
     picture: 'http://placehold.it/32x32',
@@ -3875,6 +3932,7 @@ const candidatesArr = [
   {
     index: 57,
     guid: 'fd8f15a6-7b64-409e-8691-c553fce7f5c6',
+    isEdit: false,
     isActive: true,
     balance: '$1,270.75',
     picture: 'http://placehold.it/32x32',
@@ -3940,6 +3998,7 @@ const candidatesArr = [
   {
     index: 58,
     guid: 'a36d0f09-d9bc-4954-b1c9-464dd768aeb7',
+    isEdit: false,
     isActive: false,
     balance: '$3,208.22',
     picture: 'http://placehold.it/32x32',
@@ -4005,6 +4064,7 @@ const candidatesArr = [
   {
     index: 59,
     guid: '6c5db554-163a-4aa5-8bd6-0c6ff1a1e51b',
+    isEdit: false,
     isActive: false,
     balance: '$3,532.55',
     picture: 'http://placehold.it/32x32',
@@ -4078,6 +4138,7 @@ const candidatesArr = [
   {
     index: 60,
     guid: '6ed1c107-5b50-426d-b828-18736843a6af',
+    isEdit: false,
     isActive: false,
     balance: '$2,705.52',
     picture: 'http://placehold.it/32x32',
@@ -4143,6 +4204,7 @@ const candidatesArr = [
   {
     index: 61,
     guid: '40df5ad8-8c6c-4821-9c9b-aea7cf3b27be',
+    isEdit: false,
     isActive: false,
     balance: '$1,068.73',
     picture: 'http://placehold.it/32x32',
@@ -4208,6 +4270,7 @@ const candidatesArr = [
   {
     index: 62,
     guid: '816666cb-ba9a-4592-947d-3d9c17c536dc',
+    isEdit: false,
     isActive: true,
     balance: '$3,406.72',
     picture: 'http://placehold.it/32x32',
@@ -4281,6 +4344,7 @@ const candidatesArr = [
   {
     index: 63,
     guid: '81aa1e39-fd2b-41c5-adc1-999a8e41cb76',
+    isEdit: false,
     isActive: true,
     balance: '$1,297.67',
     picture: 'http://placehold.it/32x32',
@@ -4354,6 +4418,7 @@ const candidatesArr = [
   {
     index: 64,
     guid: '34612fe5-b808-49e0-9049-edfbfbe9dca9',
+    isEdit: false,
     isActive: true,
     balance: '$2,438.16',
     picture: 'http://placehold.it/32x32',
@@ -4417,5 +4482,3 @@ const candidatesArr = [
     favoriteFruit: 'strawberry',
   },
 ];
-
-export default candidatesArr;
